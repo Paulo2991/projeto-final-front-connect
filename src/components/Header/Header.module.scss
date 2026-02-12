@@ -1,0 +1,52 @@
+$-cor-primaria-header: #205691;
+
+.header{
+  height: 100px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: $-cor-primaria-header;
+  position: relative;
+  .imgLogo{
+    max-width: 87px;
+    max-height: 65.7px;
+    width: 100%;                        
+  }
+}
+
+.nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   max-width: 600px;
+   width: 100%;
+   .link{
+     padding: 5px 20px;
+     font-family: 'Source Sans 3', sans-serif;
+     color: #fff;
+     font-size: 22px;
+     font-weight: 600;                       
+   }
+}
+
+.imgUser{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #00AAFF;    
+  cursor: pointer;                  
+}
+
+.navUser{
+   position: absolute;
+   right: 0%;
+   top: 13.9%;
+   background-color: $-cor-primaria-header;
+   a{
+     display: block;
+     padding: 5px 10px;
+     color: #fff;
+   }                         
+}
