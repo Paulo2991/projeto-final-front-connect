@@ -6,6 +6,7 @@ import Voluntariado from "../pages/Voluntariado/Voluntariado";
 import Usuario from "../pages/Usuario/Usuario";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 function LinkUteis() {
   return (
@@ -20,6 +21,7 @@ function LinkUteis() {
           <Route path="/mentoria" element={<Mentoria/>}/>
           <Route path="/usuario" element={<Usuario/>}/>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

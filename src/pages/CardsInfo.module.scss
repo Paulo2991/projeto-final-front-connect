@@ -1,0 +1,32 @@
+.corpoPrincipal {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100vh;
+	padding: 0 20px;
+	
+	h1 {
+	font-family: "Source Sans 3", sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	color: #205691;
+	}
+	
+	section {
+	display: flex;
+	justify-content: space-around;
+	column-gap: 5px;
+	width: 100%;
+	
+	
+	article {
+	display: flex;
+	flex: 1;
+	justify-content: space-around;
+	}
+	
+	article:not(:last-child) {
+	border-right: 1px solid #CBCBCB;
+	}
+	}
+	}

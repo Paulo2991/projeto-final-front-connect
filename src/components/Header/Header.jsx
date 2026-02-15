@@ -15,7 +15,7 @@ function Header()
            <Link className={s.link} to="/doacao">Doação</Link>
            <Link className={s.link} to="/voluntariado">Voluntariado</Link>
            <Link className={s.link} to="/mentoria">Mentoria</Link>
-           <Link className={s.link} to="/eventos">Eventos e Palestras</Link>
+           <Link className={s.link} to="/eventosEP">Eventos e Palestras</Link>
          </nav>
          <img className={s.imgUser} src="https://github.com/Paulo2991.png" />
        </header>
